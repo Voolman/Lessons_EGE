@@ -8,11 +8,11 @@ def f(x):
                 s.append(x//i)
 
     if len(s) > 0:
-        return int(sum(set(s))/len(s))
+        return int(sum(s)/len(s))
     return 0
 
 d = 0
-y = 555001
+y = 550001
 while d < 5:
     n = f(y)
 

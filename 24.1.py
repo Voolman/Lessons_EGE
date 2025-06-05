@@ -1,0 +1,15 @@
+f = open('24.txt').readline()
+f = f.replace('AA', '*')
+f = f.replace('BB', '*')
+f = f.replace('CC', '*')
+f = f.replace('AB', '*')
+f = f.replace('AC', '*')
+f = f.replace('BA', '*')
+f = f.replace('BC', '*')
+f = f.replace('CA', '*')
+f = f.replace('CB', '*')
+f = f.split('*')
+a = []
+for i in f:
+    a.append(len(i))
+print(max(a))

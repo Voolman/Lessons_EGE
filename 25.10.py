@@ -8,8 +8,8 @@ def f(x):
         if x%i == 0 and g(i):
             s.append(i)
             break
-
     return max(s) + min(s) if s else 0
+
 def g(r):
     if r <= 1:
         return False
